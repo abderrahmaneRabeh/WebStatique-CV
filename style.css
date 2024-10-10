@@ -26,3 +26,13 @@ table tr {
   background-color: lightgray;
   padding: 5px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li::marker {
+  content: "❖";
+  font-size: 1.2em;
+  color: #000;
+}
